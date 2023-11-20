@@ -8,7 +8,7 @@ int main() {
   int matrix[k][k];
   int num = 1;
 
-  while (x1 <= X2 && y1 <= Y2) {
+  for (int z=0;z<k*k;z++) {
 
     for (int i = y1; i <= Y2; i++) {
       matrix[x1][i] = num++;
